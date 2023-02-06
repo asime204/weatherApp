@@ -1,0 +1,33 @@
+body {
+    background-image: url('/images/thunderstorm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.container {
+    margin-top: 50px;
+  }
+
+.card {
+    animation: slide-in 1s ease-out forwards;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+#search {
+    background-color: transparent;
+  }
